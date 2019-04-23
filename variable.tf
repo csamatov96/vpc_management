@@ -21,4 +21,11 @@ variable "desired_capacity" {}
 
 variable "DBname" {}
 
+variable "db_min_size" {}
+
+variable "db_max_size" {}
+
+variable "db_desired_capacity" {}
+ 
+
 
