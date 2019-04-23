@@ -22,9 +22,9 @@ module "asg" {
   user_data = "${file("userdata.sh")}"
 
   tags{
-    Name = "${var.Appname-${count.index +1}"
+    Name = "${var.Appname}-${count.index +1}"
     Env = "${var.Env}"
     Dept = "${var.Dept}"
     Created_by = "${var.Created_by}"
-  } 
+  }
 }
