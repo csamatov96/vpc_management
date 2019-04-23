@@ -19,4 +19,6 @@ variable "max_size" {}
 
 variable "desired_capacity" {}
 
+variable "DBname" {}
+
 
