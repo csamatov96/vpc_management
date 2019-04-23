@@ -26,6 +26,9 @@ variable "db_min_size" {}
 variable "db_max_size" {}
 
 variable "db_desired_capacity" {}
- 
+
+variable "db_ami" {}
+
+variable "db_instance_type" {} 
 
 
