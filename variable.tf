@@ -1,7 +1,7 @@
 variable "ami" {}
 
 variable "instance_type" {}
-variable "count" {}  
+variable "county" {}  
 
 variable "key_name" {}
 
