@@ -1,6 +1,6 @@
 resource "aws_vpc" "dev" {
     cidr_block = "10.0.0.0/16"
-    tags{
+    tags = {
         Name = "terraform-january-${var.Created_by}-${count.index +1}"
         Env = "${var.Env}"
         Dept = "${var.Dept}"
