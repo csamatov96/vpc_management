@@ -3,10 +3,10 @@
 #}
 
 resource "aws_s3_bucket" "newbucket" {
-  bucket = "terraform-january-aidin"
+  bucket = "terraform-vpc"
 
   tags {
-    Name = "terraform-january-aidin"
+    Name = "terraform-vpc"
     Env = "dev"
     Dept = "IT"
     Created_by = "Aidin"
